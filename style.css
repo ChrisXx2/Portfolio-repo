@@ -4,7 +4,8 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  color: #333;
+  background: #0d1117;
+  color: #fff;
 }
 
 h1, h2, h3 {
@@ -16,8 +17,6 @@ h1, h2, h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #222;
-  color: #fff;
   padding: 10px 20px;
 }
 .navbar .nav-links {
@@ -26,29 +25,34 @@ h1, h2, h3 {
   gap: 20px;
 }
 .navbar a {
-  color: #fff;
   text-decoration: none;
 }
 
-/* Hero */
-.hero {
-  background: #f4f4f4;
+/* Profil */
+.profil {
   text-align: center;
+  margin: 1vh;
+  border: 0.2vh solid #ddd;
+  border-radius: 0%;
   padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
-.hero .btn {
-  display: inline-block;
-  margin: 10px;
-  padding: 10px 20px;
-  background: #222;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
+
+.profile-pic {
+  border-radius: 50%;
+  width: 10vh;
+  height: 10vh;
+  margin-bottom: 15px;
 }
 
 /* Sections */
 .section {
+  margin: 1vh;
   padding: 40px 20px;
+  border: 0.2vh solid #ddd;
+  border-radius: 0%;
 }
 .skills {
   display: flex;
@@ -71,7 +75,6 @@ h1, h2, h3 {
   gap: 20px;
 }
 .card {
-  background: #fff;
   border: 1px solid #ddd;
   border-radius: 10px;
   padding: 20px;
@@ -88,6 +91,4 @@ h1, h2, h3 {
 footer {
   text-align: center;
   padding: 20px;
-  background: #222;
-  color: white;
 }
